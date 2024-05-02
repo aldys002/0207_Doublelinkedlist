@@ -17,5 +17,11 @@ void addNode() {
     cout << "\nEnter the roll number of the student: ";
     cin >> newNode->noMhs;      // Assign value to the data field of the new node
     cout << "\nEnter the name of the Student: ";
-    cin >> newNode->name;       // 
+    cin >> newNode->name;       // Assign value to the data field of the new node
+
+    // Insert the new Node in the list
+    if (START == NULL || newNode->noMhs <= START->noMhs) {
+
+        
+    }
 }
