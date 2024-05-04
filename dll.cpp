@@ -146,7 +146,10 @@ void traverse ()
     else
     {
         cout *currentNode = START; // step 1
-        while (currentNode != NULL) // stwp 2
+        while (currentNode != NULL) // step 2
+        {
+            cout << currentNode->noMhs << " " << currentNode->name << endl; // step 3
+        }
 
     }
 }
