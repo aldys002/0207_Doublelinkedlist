@@ -146,6 +146,7 @@ void traverse ()
     else
     {
         cout *currentNode = START; // step 1
+        while (currentNode != NULL) // stwp 2
 
     }
 }
