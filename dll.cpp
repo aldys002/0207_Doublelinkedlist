@@ -150,6 +150,7 @@ void traverse ()
         while (currentNode != NULL) // step 2
         {
             cout << currentNode->noMhs << " " << currentNode->name << endl; // step 3
+            currentNode = currentNode->next;                                // step 4
         }
 
     }
